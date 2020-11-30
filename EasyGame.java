@@ -10,5 +10,7 @@ public class EasyGame extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_easy_game);
+
+        Engine.getInstance().createGrid(this);
     }
 }
